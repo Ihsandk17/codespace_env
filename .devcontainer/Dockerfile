@@ -2,7 +2,7 @@ FROM debian:bullseye
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    curl unzip git xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev openjdk-11-jdk \
+    curl unzip git xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev openjdk-17-jdk \
     && apt-get clean
 
 # Install Flutter SDK
